@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.thumbnail {
+  height: 150px;
+  width: 220px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (min-width: 1200px) {
+  .thumbnail {
+    height: 170px;
+    width: 255px;
+    padding-right: 25px;
+  }
+}
+.popup-content {
+  background-color: #ffffff;
+  height: 460px;
+  width: 750px;
+  border-radius: 15px;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.close-button {
+  background-color: transparent;
+  height: 28px;
+  width: 28px;
+  border: none;
+  align-self: flex-end;
+  margin-top: 18px;
+  margin-right: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.movie-player-container {
+  margin-top: 12px;
+  margin-left: 48px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+}
